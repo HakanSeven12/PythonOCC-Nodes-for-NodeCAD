@@ -1,15 +1,15 @@
-from ryven.NWENV import *
+from ryven.gui_env import *
 
 from qtpy.QtCore import Signal
 from qtpy.QtWidgets import QLineEdit
 
 
-class ImportFileNode_MainWidget(MWB, QLineEdit):
+class ImportFileNode_MainWidget(NodeMainWidget, QLineEdit):
 
     value_changed = Signal(object)
 
     def __init__(self, params):
-        MWB.__init__(self, params)
+        NodeMainWidget.__init__(self, params)
         QLineEdit.__init__(self)
 
         # self.setFixedWidth(80)
@@ -37,6 +37,6 @@ class ImportFileNode_MainWidget(MWB, QLineEdit):
         self.setText(data['text'])
 
 
-export_widgets(
-    ImportFileNode_MainWidget,
+export_guis(
+    [ImportFileNode_MainWidget]
 )
