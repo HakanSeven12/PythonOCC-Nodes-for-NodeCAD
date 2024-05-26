@@ -1,23 +1,20 @@
-# Pythonocc-nodes-for-Ryven
+# PythonOCC Nodes for NodeCAD
 Pythonocc nodes package for Ryven.
 
 Here a way to work on Pythonocc with a node editor, Ryven in that case.
 To get it functional you will have to execute Ryven in an environment where pythonocc is installed.
 
-### Installation
-
-Prerequisites:
-
-1. Ryven:  https://github.com/leon-thomm/Ryven
-2. Anaconda: https://docs.anaconda.com/anaconda/install/index.html
-3. pythonocc-core: https://anaconda.org/conda-forge/pythonocc-core
-4. pythonocc-utils: https://github.com/tpaviot/pythonocc-utils 
-
-Easy install solution for beginners : https://github.com/Tanneguydv/Pythonocc-nodes-for-Ryven/discussions/13#discussioncomment-1990881
-
 ### Usage
 
-You just have to import the `nodes.py` file in Ryven.
+First you need to install NodeCAD: https://github.com/HakanSeven12/NodeCAD
+When installed, create a directory ~/.ryven/ in your user home with the following structure:
+```
+~/.ryven
+├── nodes
+    ├── PythonOCC
+        ├── nodes.py
+        └── gui.py
+```
 
 ### Examples
 
