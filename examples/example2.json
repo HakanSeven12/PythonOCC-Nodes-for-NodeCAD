@@ -1,0 +1,2150 @@
+{
+    "general info": {
+        "type": "Ryven project file",
+        "ryven version": "3.4.3"
+    },
+    "required packages": [
+        {
+            "name": "std",
+            "dir": "/home/hakanseven/miniconda3/envs/nodecadenv/lib/python3.10/site-packages/ryven/example_nodes/std"
+        },
+        {
+            "name": "PythonOCC",
+            "dir": "/home/hakanseven/.ryven/nodes/PythonOCC"
+        }
+    ],
+    "GID": 2,
+    "version": "0.4.0",
+    "flows": {
+        "hello world": {
+            "GID": 5,
+            "algorithm mode": "data",
+            "nodes": [
+                {
+                    "GID": 6,
+                    "version": "v0.2",
+                    "identifier": "built_in.Val_Node",
+                    "state data": "gASVaQAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUSwmMDnByZXZfZ2xvYmFsX2lklE6MDHByZXZfdmVyc2lvbpROjAhfcGF5bG9hZJRLMnVicy4=",
+                    "additional data": {},
+                    "inputs": [],
+                    "outputs": [
+                        {
+                            "GID": 8,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 75.0,
+                    "pos y": 147.0,
+                    "main widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAjUwlHMu",
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        },
+                        "edit val via dialog": {
+                            "method": "action_edit_via_dialog"
+                        }
+                    },
+                    "display title": "val"
+                },
+                {
+                    "GID": 10,
+                    "version": "v0.2",
+                    "identifier": "built_in.Val_Node",
+                    "state data": "gASVaQAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUSw+MDnByZXZfZ2xvYmFsX2lklE6MDHByZXZfdmVyc2lvbpROjAhfcGF5bG9hZJRLBXVicy4=",
+                    "additional data": {},
+                    "inputs": [],
+                    "outputs": [
+                        {
+                            "GID": 13,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 77.0,
+                    "pos y": 242.0,
+                    "main widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMATWUcy4=",
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        },
+                        "edit val via dialog": {
+                            "method": "action_edit_via_dialog"
+                        }
+                    },
+                    "display title": "val"
+                },
+                {
+                    "GID": 16,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.Torus_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 17,
+                            "type": "data",
+                            "label": "axe",
+                            "default": {
+                                "GID": 28,
+                                "identifier": "Data",
+                                "serialized": "gASVFAAAAAAAAACMEDxjbGFzcyAnZ3BfQXgyJz6ULg=="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVewAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQMBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjBA8Y2xhc3MgJ2dwX0F4Mic+lHVicy4="
+                        },
+                        {
+                            "GID": 18,
+                            "type": "data",
+                            "label": "distance",
+                            "default": {
+                                "GID": 29,
+                                "identifier": "Data",
+                                "serialized": "gARLMi4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVagAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQQBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUSzJ1YnMu"
+                        },
+                        {
+                            "GID": 19,
+                            "type": "data",
+                            "label": "radius",
+                            "default": {
+                                "GID": 30,
+                                "identifier": "Data",
+                                "serialized": "gARLBS4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVagAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQUBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUSwV1YnMu"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 20,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 323.0,
+                    "pos y": 91.0,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "torus"
+                },
+                {
+                    "GID": 24,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.XOY_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 25,
+                            "type": "exec",
+                            "label": ""
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 26,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 78.0,
+                    "pos y": 49.0,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "AxZ"
+                },
+                {
+                    "GID": 32,
+                    "version": "v0.2",
+                    "identifier": "std.Plus_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 33,
+                            "type": "data",
+                            "label": "",
+                            "default": {
+                                "GID": 38,
+                                "identifier": "Data",
+                                "serialized": "gARLMi4="
+                            },
+                            "has widget": true,
+                            "widget name": "in",
+                            "widget pos": "besides",
+                            "widget data": "gASVagAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQYBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUSzJ1YnMu"
+                        },
+                        {
+                            "GID": 34,
+                            "type": "data",
+                            "label": "",
+                            "default": {
+                                "GID": 39,
+                                "identifier": "Data",
+                                "serialized": "gARLBS4="
+                            },
+                            "has widget": true,
+                            "widget name": "in",
+                            "widget pos": "besides",
+                            "widget data": "gASVagAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQcBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUSwV1YnMu"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 35,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 326.0,
+                    "pos y": 243.0,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        },
+                        "add input": {
+                            "method": "add_operand_input"
+                        },
+                        "remove input": {
+                            "0": {
+                                "method": "remove_operand_input",
+                                "data": 0
+                            },
+                            "1": {
+                                "method": "remove_operand_input",
+                                "data": 1
+                            }
+                        }
+                    },
+                    "display title": "+"
+                },
+                {
+                    "GID": 41,
+                    "version": "v0.2",
+                    "identifier": "built_in.Val_Node",
+                    "state data": "gASVaQAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUSyyMDnByZXZfZ2xvYmFsX2lklE6MDHByZXZfdmVyc2lvbpROjAhfcGF5bG9hZJRLAHVicy4=",
+                    "additional data": {},
+                    "inputs": [],
+                    "outputs": [
+                        {
+                            "GID": 43,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 77.0,
+                    "pos y": 338.0,
+                    "main widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMATCUcy4=",
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        },
+                        "edit val via dialog": {
+                            "method": "action_edit_via_dialog"
+                        }
+                    },
+                    "display title": "val"
+                },
+                {
+                    "GID": 45,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.Vec_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 46,
+                            "type": "data",
+                            "label": "x",
+                            "default": {
+                                "GID": 51,
+                                "identifier": "Data",
+                                "serialized": "gARLAC4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVagAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQgBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUSwB1YnMu"
+                        },
+                        {
+                            "GID": 47,
+                            "type": "data",
+                            "label": "y",
+                            "has widget": false
+                        },
+                        {
+                            "GID": 48,
+                            "type": "data",
+                            "label": "z",
+                            "has widget": false
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 49,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 325.0,
+                    "pos y": 356.0,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "Vector"
+                },
+                {
+                    "GID": 53,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.Torus_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 54,
+                            "type": "data",
+                            "label": "axe",
+                            "default": {
+                                "GID": 61,
+                                "identifier": "Data",
+                                "serialized": "gASVFAAAAAAAAACMEDxjbGFzcyAnZ3BfQXgyJz6ULg=="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVewAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQkBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjBA8Y2xhc3MgJ2dwX0F4Mic+lHVicy4="
+                        },
+                        {
+                            "GID": 55,
+                            "type": "data",
+                            "label": "distance",
+                            "default": {
+                                "GID": 62,
+                                "identifier": "Data",
+                                "serialized": "gARLNy4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVagAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQoBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUSzd1YnMu"
+                        },
+                        {
+                            "GID": 56,
+                            "type": "data",
+                            "label": "radius",
+                            "default": {
+                                "GID": 63,
+                                "identifier": "Data",
+                                "serialized": "gARLBS4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVagAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQsBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUSwV1YnMu"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 57,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 555.0,
+                    "pos y": 224.0,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "torus"
+                },
+                {
+                    "GID": 65,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.TopExplorer_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 66,
+                            "type": "data",
+                            "label": "shape",
+                            "default": {
+                                "GID": 76,
+                                "identifier": "Data",
+                                "serialized": "gASVGgAAAAAAAACMFjxjbGFzcyAnVG9wb0RTX1NvbGlkJz6ULg=="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVgQAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQwBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjBY8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+lHVicy4="
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 67,
+                            "type": "data",
+                            "label": "vertex"
+                        },
+                        {
+                            "GID": 68,
+                            "type": "data",
+                            "label": "edges"
+                        },
+                        {
+                            "GID": 69,
+                            "type": "data",
+                            "label": "wires"
+                        },
+                        {
+                            "GID": 70,
+                            "type": "data",
+                            "label": "faces"
+                        },
+                        {
+                            "GID": 71,
+                            "type": "data",
+                            "label": "shells"
+                        },
+                        {
+                            "GID": 72,
+                            "type": "data",
+                            "label": "solids"
+                        },
+                        {
+                            "GID": 73,
+                            "type": "data",
+                            "label": "compounds"
+                        },
+                        {
+                            "GID": 74,
+                            "type": "data",
+                            "label": "compsolids"
+                        }
+                    ],
+                    "pos x": 785.0,
+                    "pos y": 102.0,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "topexp"
+                },
+                {
+                    "GID": 85,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.ListItem_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 86,
+                            "type": "data",
+                            "label": "list",
+                            "default": {
+                                "GID": 91,
+                                "identifier": "Data",
+                                "serialized": "gASVYAAAAAAAAACMXFs8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz5dlC4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVxwAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQ0BjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjFxbPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+XZR1YnMu"
+                        },
+                        {
+                            "GID": 87,
+                            "type": "data",
+                            "label": "index",
+                            "default": {
+                                "GID": 92,
+                                "identifier": "Data",
+                                "serialized": "gARLAC4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVagAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQ4BjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUSwB1YnMu"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 88,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 189.51346609377617,
+                    "pos y": 523.5641349650836,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "ListItem"
+                },
+                {
+                    "GID": 94,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.Trsf_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 95,
+                            "type": "data",
+                            "label": "shapes",
+                            "default": {
+                                "GID": 99,
+                                "identifier": "Data",
+                                "serialized": "gASVGQAAAAAAAACMFTxjbGFzcyAnVG9wb0RTX0VkZ2UnPpQu"
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVgAAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTQ8BjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjBU8Y2xhc3MgJ1RvcG9EU19FZGdlJz6UdWJzLg=="
+                        },
+                        {
+                            "GID": 96,
+                            "type": "data",
+                            "label": "vectors",
+                            "has widget": false
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 97,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 464.3008942556204,
+                    "pos y": 521.0935543057328,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "Transform"
+                },
+                {
+                    "GID": 102,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.Trsf_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 106,
+                            "type": "data",
+                            "label": "shapes",
+                            "default": {
+                                "GID": 113,
+                                "identifier": "Data",
+                                "serialized": "gASVGgAAAAAAAACMFjxjbGFzcyAnVG9wb0RTX1NvbGlkJz6ULg=="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVgQAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTRABjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjBY8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+lHVicy4="
+                        },
+                        {
+                            "GID": 108,
+                            "type": "data",
+                            "label": "vectors",
+                            "has widget": false
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 109,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 571.553413606477,
+                    "pos y": 396.29808512493287,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "Transform"
+                },
+                {
+                    "GID": 115,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.DiscretizeWire_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 116,
+                            "type": "data",
+                            "label": "Wire",
+                            "default": {
+                                "GID": 120,
+                                "identifier": "Data",
+                                "serialized": "gASVGQAAAAAAAACMFTxjbGFzcyAnVG9wb0RTX0VkZ2UnPpQu"
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVgAAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTREBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjBU8Y2xhc3MgJ1RvcG9EU19FZGdlJz6UdWJzLg=="
+                        },
+                        {
+                            "GID": 117,
+                            "type": "data",
+                            "label": "Nb",
+                            "has widget": false
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 118,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 369.4571789610929,
+                    "pos y": 666.286023596501,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "DiscretizeWire"
+                },
+                {
+                    "GID": 121,
+                    "version": "v0.2",
+                    "identifier": "built_in.Val_Node",
+                    "state data": "gASVaQAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUS3yMDnByZXZfZ2xvYmFsX2lklE6MDHByZXZfdmVyc2lvbpROjAhfcGF5bG9hZJRLCnVicy4=",
+                    "additional data": {},
+                    "inputs": [],
+                    "outputs": [
+                        {
+                            "GID": 123,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 88.41710265735558,
+                    "pos y": 762.5975104196918,
+                    "main widget data": "gASVEAAAAAAAAAB9lIwEdGV4dJSMAjEwlHMu",
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        },
+                        "edit val via dialog": {
+                            "method": "action_edit_via_dialog"
+                        }
+                    },
+                    "display title": "val"
+                },
+                {
+                    "GID": 127,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.DiscretizeWire_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 131,
+                            "type": "data",
+                            "label": "Wire",
+                            "default": {
+                                "GID": 136,
+                                "identifier": "Data",
+                                "serialized": "gASVGQAAAAAAAACMFTxjbGFzcyAnVG9wb0RTX0VkZ2UnPpQu"
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVgAAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTRIBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjBU8Y2xhc3MgJ1RvcG9EU19FZGdlJz6UdWJzLg=="
+                        },
+                        {
+                            "GID": 133,
+                            "type": "data",
+                            "label": "Nb",
+                            "has widget": false
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 134,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 380.5093167932624,
+                    "pos y": 781.5440324176967,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "DiscretizeWire"
+                },
+                {
+                    "GID": 139,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.TwoPtsEdge_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 140,
+                            "type": "data",
+                            "label": "pnt1",
+                            "default": {
+                                "GID": 144,
+                                "identifier": "Data",
+                                "serialized": "gASV3wIAAAAAAABY2AIAAFs8IGdwX1BudDogNTUuMCwgLTEuMzQ3MTExNDc5MDYyMDg4NWUtMTQsIC0xLjIyNDY0Njc5OTE0NzM1MzNlLTE1ID4sIDwgZ3BfUG50OiA0Mi4xMzI0NDQzNzE1NDM3OCwgLTM1LjM1MzMxODUzMjc1OTY4LCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogOS41NTA2NDk3NzE2ODExNSwgLTU0LjE2NDQyNjQxNTY3MTQ1LCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogLTI3LjUwMDAwMDAwMDAwMDAyNSwgLTQ3LjYzMTM5NzIwODE0NDExLCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogLTUxLjY4MzA5NDE0MzIyNDk3LCAtMTguODExMTA3ODgyOTExNzUyLCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogLTUxLjY4MzA5NDE0MzIyNDk1NiwgMTguODExMTA3ODgyOTExNzg4LCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogLTI3LjQ5OTk5OTk5OTk5OTk2OCwgNDcuNjMxMzk3MjA4MTQ0MTQsIC0xLjIyNDY0Njc5OTE0NzM1MzNlLTE1ID4sIDwgZ3BfUG50OiA5LjU1MDY0OTc3MTY4MTIxLCA1NC4xNjQ0MjY0MTU2NzE0MzYsIC0xLjIyNDY0Njc5OTE0NzM1MzNlLTE1ID4sIDwgZ3BfUG50OiA0Mi4xMzI0NDQzNzE1NDM4MiwgMzUuMzUzMzE4NTMyNzU5NjMsIC0xLjIyNDY0Njc5OTE0NzM1MzNlLTE1ID4sIDwgZ3BfUG50OiA1NS4wLCAwLjAsIC0xLjIyNDY0Njc5OTE0NzM1MzNlLTE1ID5dlC4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVRgMAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTRMBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUWNgCAABbPCBncF9QbnQ6IDU1LjAsIC0xLjM0NzExMTQ3OTA2MjA4ODVlLTE0LCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogNDIuMTMyNDQ0MzcxNTQzNzgsIC0zNS4zNTMzMTg1MzI3NTk2OCwgLTEuMjI0NjQ2Nzk5MTQ3MzUzM2UtMTUgPiwgPCBncF9QbnQ6IDkuNTUwNjQ5NzcxNjgxMTUsIC01NC4xNjQ0MjY0MTU2NzE0NSwgLTEuMjI0NjQ2Nzk5MTQ3MzUzM2UtMTUgPiwgPCBncF9QbnQ6IC0yNy41MDAwMDAwMDAwMDAwMjUsIC00Ny42MzEzOTcyMDgxNDQxMSwgLTEuMjI0NjQ2Nzk5MTQ3MzUzM2UtMTUgPiwgPCBncF9QbnQ6IC01MS42ODMwOTQxNDMyMjQ5NywgLTE4LjgxMTEwNzg4MjkxMTc1MiwgLTEuMjI0NjQ2Nzk5MTQ3MzUzM2UtMTUgPiwgPCBncF9QbnQ6IC01MS42ODMwOTQxNDMyMjQ5NTYsIDE4LjgxMTEwNzg4MjkxMTc4OCwgLTEuMjI0NjQ2Nzk5MTQ3MzUzM2UtMTUgPiwgPCBncF9QbnQ6IC0yNy40OTk5OTk5OTk5OTk5NjgsIDQ3LjYzMTM5NzIwODE0NDE0LCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogOS41NTA2NDk3NzE2ODEyMSwgNTQuMTY0NDI2NDE1NjcxNDM2LCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogNDIuMTMyNDQ0MzcxNTQzODIsIDM1LjM1MzMxODUzMjc1OTYzLCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogNTUuMCwgMC4wLCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+XZR1YnMu"
+                        },
+                        {
+                            "GID": 141,
+                            "type": "data",
+                            "label": "Pnt2",
+                            "has widget": false
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 142,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 800.4905544157016,
+                    "pos y": 446.82214378627936,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "2ptsEdge"
+                },
+                {
+                    "GID": 146,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.Pipe_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 147,
+                            "type": "data",
+                            "label": "wire",
+                            "default": {
+                                "GID": 152,
+                                "identifier": "Data",
+                                "serialized": "gASV6gAAAAAAAACM5ls8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz5dlC4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVUQEAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTRQBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjOZbPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+XZR1YnMu"
+                        },
+                        {
+                            "GID": 148,
+                            "type": "data",
+                            "label": "radius",
+                            "default": {
+                                "GID": 153,
+                                "identifier": "Data",
+                                "serialized": "gARLBS4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVagAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTRUBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUSwV1YnMu"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 149,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 806.80606174837,
+                    "pos y": 293.6710909690739,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "pipe"
+                },
+                {
+                    "GID": 155,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.List_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 156,
+                            "type": "data",
+                            "label": "",
+                            "default": {
+                                "GID": 194,
+                                "identifier": "Data",
+                                "serialized": "gASVGgAAAAAAAACMFjxjbGFzcyAnVG9wb0RTX1NvbGlkJz6ULg=="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVgQAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTRYBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjBY8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+lHVicy4="
+                        },
+                        {
+                            "GID": 157,
+                            "type": "data",
+                            "label": "",
+                            "default": {
+                                "GID": 245,
+                                "identifier": "Data",
+                                "serialized": "gASV3AAAAAAAAACM2Fs8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+XZQu"
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVQwEAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTRcBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjNhbPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPl2UdWJzLg=="
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 158,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 983.6402670630812,
+                    "pos y": 614.1830881019878,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        },
+                        "add input": {
+                            "method": "add_operand_input"
+                        },
+                        "remove input": {
+                            "0": {
+                                "method": "remove_operand_input",
+                                "data": 0
+                            },
+                            "1": {
+                                "method": "remove_operand_input",
+                                "data": 1
+                            }
+                        }
+                    },
+                    "display title": "List"
+                },
+                {
+                    "GID": 161,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.List_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 162,
+                            "type": "data",
+                            "label": "",
+                            "default": {
+                                "GID": 186,
+                                "identifier": "Data",
+                                "serialized": "gASV9AAAAAAAAACM8Fs8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+XZQu"
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVWwEAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTRgBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjPBbPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPl2UdWJzLg=="
+                        },
+                        {
+                            "GID": 163,
+                            "type": "data",
+                            "label": "",
+                            "default": {
+                                "GID": 190,
+                                "identifier": "Data",
+                                "serialized": "gASVGgAAAAAAAACMFjxjbGFzcyAnVG9wb0RTX1NvbGlkJz6ULg=="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVgQAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTRkBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjBY8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+lHVicy4="
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 164,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 985.2191438962482,
+                    "pos y": 383.6670704595966,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        },
+                        "add input": {
+                            "method": "add_operand_input"
+                        },
+                        "remove input": {
+                            "0": {
+                                "method": "remove_operand_input",
+                                "data": 0
+                            },
+                            "1": {
+                                "method": "remove_operand_input",
+                                "data": 1
+                            }
+                        }
+                    },
+                    "display title": "List"
+                },
+                {
+                    "GID": 169,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.List_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 173,
+                            "type": "data",
+                            "label": "",
+                            "default": {
+                                "GID": 247,
+                                "identifier": "Data",
+                                "serialized": "gASV9gAAAAAAAACM8ls8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCBbPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPl1dlC4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVXQEAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTRoBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjPJbPGNsYXNzICdUb3BvRFNfU29saWQnPiwgWzxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz5dXZR1YnMu"
+                        },
+                        {
+                            "GID": 175,
+                            "type": "data",
+                            "label": "",
+                            "default": {
+                                "GID": 192,
+                                "identifier": "Data",
+                                "serialized": "gASVEQEAAAAAAABYCgEAAFtbPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPl0sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz5dlC4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVeAEAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTRsBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUWAoBAABbWzxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz5dLCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+XZR1YnMu"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 177,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 966.2726218982428,
+                    "pos y": 787.859539750365,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        },
+                        "add input": {
+                            "method": "add_operand_input"
+                        },
+                        "remove input": {
+                            "0": {
+                                "method": "remove_operand_input",
+                                "data": 0
+                            },
+                            "1": {
+                                "method": "remove_operand_input",
+                                "data": 1
+                            }
+                        }
+                    },
+                    "display title": "List"
+                },
+                {
+                    "GID": 199,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.TwoPtsEdge_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 203,
+                            "type": "data",
+                            "label": "pnt1",
+                            "default": {
+                                "GID": 211,
+                                "identifier": "Data",
+                                "serialized": "gASV3wIAAAAAAABY2AIAAFs8IGdwX1BudDogNTUuMCwgLTEuMzQ3MTExNDc5MDYyMDg4NWUtMTQsIC0xLjIyNDY0Njc5OTE0NzM1MzNlLTE1ID4sIDwgZ3BfUG50OiA0Mi4xMzI0NDQzNzE1NDM3OCwgLTM1LjM1MzMxODUzMjc1OTY4LCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogOS41NTA2NDk3NzE2ODExNSwgLTU0LjE2NDQyNjQxNTY3MTQ1LCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogLTI3LjUwMDAwMDAwMDAwMDAyNSwgLTQ3LjYzMTM5NzIwODE0NDExLCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogLTUxLjY4MzA5NDE0MzIyNDk3LCAtMTguODExMTA3ODgyOTExNzUyLCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogLTUxLjY4MzA5NDE0MzIyNDk1NiwgMTguODExMTA3ODgyOTExNzg4LCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogLTI3LjQ5OTk5OTk5OTk5OTk2OCwgNDcuNjMxMzk3MjA4MTQ0MTQsIC0xLjIyNDY0Njc5OTE0NzM1MzNlLTE1ID4sIDwgZ3BfUG50OiA5LjU1MDY0OTc3MTY4MTIxLCA1NC4xNjQ0MjY0MTU2NzE0MzYsIC0xLjIyNDY0Njc5OTE0NzM1MzNlLTE1ID4sIDwgZ3BfUG50OiA0Mi4xMzI0NDQzNzE1NDM4MiwgMzUuMzUzMzE4NTMyNzU5NjMsIC0xLjIyNDY0Njc5OTE0NzM1MzNlLTE1ID4sIDwgZ3BfUG50OiA1NS4wLCAwLjAsIC0xLjIyNDY0Njc5OTE0NzM1MzNlLTE1ID5dlC4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVRgMAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTRwBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUWNgCAABbPCBncF9QbnQ6IDU1LjAsIC0xLjM0NzExMTQ3OTA2MjA4ODVlLTE0LCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogNDIuMTMyNDQ0MzcxNTQzNzgsIC0zNS4zNTMzMTg1MzI3NTk2OCwgLTEuMjI0NjQ2Nzk5MTQ3MzUzM2UtMTUgPiwgPCBncF9QbnQ6IDkuNTUwNjQ5NzcxNjgxMTUsIC01NC4xNjQ0MjY0MTU2NzE0NSwgLTEuMjI0NjQ2Nzk5MTQ3MzUzM2UtMTUgPiwgPCBncF9QbnQ6IC0yNy41MDAwMDAwMDAwMDAwMjUsIC00Ny42MzEzOTcyMDgxNDQxMSwgLTEuMjI0NjQ2Nzk5MTQ3MzUzM2UtMTUgPiwgPCBncF9QbnQ6IC01MS42ODMwOTQxNDMyMjQ5NywgLTE4LjgxMTEwNzg4MjkxMTc1MiwgLTEuMjI0NjQ2Nzk5MTQ3MzUzM2UtMTUgPiwgPCBncF9QbnQ6IC01MS42ODMwOTQxNDMyMjQ5NTYsIDE4LjgxMTEwNzg4MjkxMTc4OCwgLTEuMjI0NjQ2Nzk5MTQ3MzUzM2UtMTUgPiwgPCBncF9QbnQ6IC0yNy40OTk5OTk5OTk5OTk5NjgsIDQ3LjYzMTM5NzIwODE0NDE0LCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogOS41NTA2NDk3NzE2ODEyMSwgNTQuMTY0NDI2NDE1NjcxNDM2LCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogNDIuMTMyNDQ0MzcxNTQzODIsIDM1LjM1MzMxODUzMjc1OTYzLCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+LCA8IGdwX1BudDogNTUuMCwgMC4wLCAtMS4yMjQ2NDY3OTkxNDczNTMzZS0xNSA+XZR1YnMu"
+                        },
+                        {
+                            "GID": 205,
+                            "type": "data",
+                            "label": "Pnt2",
+                            "has widget": false
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 206,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 784.7017860840307,
+                    "pos y": 573.1322904396444,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "2ptsEdge"
+                },
+                {
+                    "GID": 212,
+                    "version": "v0.2",
+                    "identifier": "built_in.Val_Node",
+                    "state data": "gASVaQAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUS9eMDnByZXZfZ2xvYmFsX2lklE6MDHByZXZfdmVyc2lvbpROjAhfcGF5bG9hZJRLAXVicy4=",
+                    "additional data": {},
+                    "inputs": [],
+                    "outputs": [
+                        {
+                            "GID": 214,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 99.46924048952503,
+                    "pos y": 906.2753022378946,
+                    "main widget data": "gASVDwAAAAAAAAB9lIwEdGV4dJSMATGUcy4=",
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        },
+                        "edit val via dialog": {
+                            "method": "action_edit_via_dialog"
+                        }
+                    },
+                    "display title": "val"
+                },
+                {
+                    "GID": 216,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.ShiftList_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 217,
+                            "type": "data",
+                            "label": "List",
+                            "default": {
+                                "GID": 224,
+                                "identifier": "Data",
+                                "serialized": "gASVIQIAAAAAAABYGgIAAFs8IGdwX1BudDogNTUuMCwgLTEuMzQ3MTExNDc5MDYyMDg4NWUtMTQsIDUwLjAgPiwgPCBncF9QbnQ6IDQyLjEzMjQ0NDM3MTU0Mzc4LCAtMzUuMzUzMzE4NTMyNzU5NjgsIDUwLjAgPiwgPCBncF9QbnQ6IDkuNTUwNjQ5NzcxNjgxMTUsIC01NC4xNjQ0MjY0MTU2NzE0NSwgNTAuMCA+LCA8IGdwX1BudDogLTI3LjUwMDAwMDAwMDAwMDAyNSwgLTQ3LjYzMTM5NzIwODE0NDExLCA1MC4wID4sIDwgZ3BfUG50OiAtNTEuNjgzMDk0MTQzMjI0OTcsIC0xOC44MTExMDc4ODI5MTE3NTIsIDUwLjAgPiwgPCBncF9QbnQ6IC01MS42ODMwOTQxNDMyMjQ5NTYsIDE4LjgxMTEwNzg4MjkxMTc4OCwgNTAuMCA+LCA8IGdwX1BudDogLTI3LjQ5OTk5OTk5OTk5OTk2OCwgNDcuNjMxMzk3MjA4MTQ0MTQsIDUwLjAgPiwgPCBncF9QbnQ6IDkuNTUwNjQ5NzcxNjgxMjEsIDU0LjE2NDQyNjQxNTY3MTQzNiwgNTAuMCA+LCA8IGdwX1BudDogNDIuMTMyNDQ0MzcxNTQzODIsIDM1LjM1MzMxODUzMjc1OTYzLCA1MC4wID4sIDwgZ3BfUG50OiA1NS4wLCAwLjAsIDUwLjAgPl2ULg=="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASViAIAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTR0BjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUWBoCAABbPCBncF9QbnQ6IDU1LjAsIC0xLjM0NzExMTQ3OTA2MjA4ODVlLTE0LCA1MC4wID4sIDwgZ3BfUG50OiA0Mi4xMzI0NDQzNzE1NDM3OCwgLTM1LjM1MzMxODUzMjc1OTY4LCA1MC4wID4sIDwgZ3BfUG50OiA5LjU1MDY0OTc3MTY4MTE1LCAtNTQuMTY0NDI2NDE1NjcxNDUsIDUwLjAgPiwgPCBncF9QbnQ6IC0yNy41MDAwMDAwMDAwMDAwMjUsIC00Ny42MzEzOTcyMDgxNDQxMSwgNTAuMCA+LCA8IGdwX1BudDogLTUxLjY4MzA5NDE0MzIyNDk3LCAtMTguODExMTA3ODgyOTExNzUyLCA1MC4wID4sIDwgZ3BfUG50OiAtNTEuNjgzMDk0MTQzMjI0OTU2LCAxOC44MTExMDc4ODI5MTE3ODgsIDUwLjAgPiwgPCBncF9QbnQ6IC0yNy40OTk5OTk5OTk5OTk5NjgsIDQ3LjYzMTM5NzIwODE0NDE0LCA1MC4wID4sIDwgZ3BfUG50OiA5LjU1MDY0OTc3MTY4MTIxLCA1NC4xNjQ0MjY0MTU2NzE0MzYsIDUwLjAgPiwgPCBncF9QbnQ6IDQyLjEzMjQ0NDM3MTU0MzgyLCAzNS4zNTMzMTg1MzI3NTk2MywgNTAuMCA+LCA8IGdwX1BudDogNTUuMCwgMC4wLCA1MC4wID5dlHVicy4="
+                        },
+                        {
+                            "GID": 218,
+                            "type": "data",
+                            "label": "ShiftValue",
+                            "default": {
+                                "GID": 223,
+                                "identifier": "Data",
+                                "serialized": "gARLAS4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVagAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTR4BjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUSwF1YnMu"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 219,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 386.8248241259306,
+                    "pos y": 898.3809180720594,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "ShiftLIst"
+                },
+                {
+                    "GID": 229,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.Pipe_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 233,
+                            "type": "data",
+                            "label": "wire",
+                            "default": {
+                                "GID": 243,
+                                "identifier": "Data",
+                                "serialized": "gASV0wAAAAAAAACMz1s8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+XZQu"
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVOgEAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTR8BjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUjM9bPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPiwgPGNsYXNzICdUb3BvRFNfRWRnZSc+LCA8Y2xhc3MgJ1RvcG9EU19FZGdlJz4sIDxjbGFzcyAnVG9wb0RTX0VkZ2UnPl2UdWJzLg=="
+                        },
+                        {
+                            "GID": 235,
+                            "type": "data",
+                            "label": "radius",
+                            "default": {
+                                "GID": 241,
+                                "identifier": "Data",
+                                "serialized": "gARLBS4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVagAAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTSABjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUSwV1YnMu"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 237,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 697.8635602598421,
+                    "pos y": 732.5988505895175,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "pipe"
+                },
+                {
+                    "GID": 249,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.FlattenList_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 250,
+                            "type": "data",
+                            "label": "list",
+                            "default": {
+                                "GID": 253,
+                                "identifier": "Data",
+                                "serialized": "gASVBwIAAAAAAABYAAIAAFtbPGNsYXNzICdUb3BvRFNfU29saWQnPiwgWzxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz5dXSwgW1s8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+XSwgPGNsYXNzICdUb3BvRFNfU29saWQnPl1dlC4="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVbgIAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTSEBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUWAACAABbWzxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIFs8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+XV0sIFtbPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPl0sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz5dXZR1YnMu"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "GID": 251,
+                            "type": "data",
+                            "label": ""
+                        }
+                    ],
+                    "pos x": 723.1255895905156,
+                    "pos y": 895.2231644057254,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "FlattenList"
+                },
+                {
+                    "GID": 255,
+                    "version": "v0.1",
+                    "identifier": "PythonOCC.Display_Node",
+                    "state data": "gAR9lC4=",
+                    "additional data": {},
+                    "inputs": [
+                        {
+                            "GID": 256,
+                            "type": "data",
+                            "label": "shapes",
+                            "default": {
+                                "GID": 258,
+                                "identifier": "Data",
+                                "serialized": "gASVAwIAAAAAAABY/AEAAFs8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCBbPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPl0sIFs8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+LCA8Y2xhc3MgJ1RvcG9EU19Tb2xpZCc+XSwgPGNsYXNzICdUb3BvRFNfU29saWQnPl2ULg=="
+                            },
+                            "has widget": true,
+                            "widget name": "DataSmall",
+                            "widget pos": "besides",
+                            "widget data": "gASVagIAAAAAAAB9lIwDdmFslIwOcnl2ZW5jb3JlLkRhdGGUjAREYXRhlJOUKYGUfZQojAlnbG9iYWxfaWSUTSIBjA5wcmV2X2dsb2JhbF9pZJROjAxwcmV2X3ZlcnNpb26UTowIX3BheWxvYWSUWPwBAABbPGNsYXNzICdUb3BvRFNfU29saWQnPiwgWzxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz4sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz5dLCBbPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPiwgPGNsYXNzICdUb3BvRFNfU29saWQnPl0sIDxjbGFzcyAnVG9wb0RTX1NvbGlkJz5dlHVicy4="
+                        }
+                    ],
+                    "outputs": [],
+                    "pos x": 961.5359913987419,
+                    "pos y": 912.5908095705631,
+                    "unconnected ports hidden": false,
+                    "collapsed": false,
+                    "actions": {
+                        "update shape": {
+                            "method": "update_shape"
+                        },
+                        "hide unconnected ports": {
+                            "method": "hide_unconnected_ports"
+                        },
+                        "change title": {
+                            "method": "change_title"
+                        },
+                        "console ref": {
+                            "method": "console_ref_monkeypatch"
+                        }
+                    },
+                    "display title": "display"
+                }
+            ],
+            "connections": [
+                {
+                    "parent node index": 0,
+                    "output port index": 0,
+                    "connected node": 2,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 0,
+                    "output port index": 0,
+                    "connected node": 4,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 0,
+                    "output port index": 0,
+                    "connected node": 6,
+                    "connected input port index": 2
+                },
+                {
+                    "parent node index": 1,
+                    "output port index": 0,
+                    "connected node": 2,
+                    "connected input port index": 2
+                },
+                {
+                    "parent node index": 1,
+                    "output port index": 0,
+                    "connected node": 4,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 1,
+                    "output port index": 0,
+                    "connected node": 7,
+                    "connected input port index": 2
+                },
+                {
+                    "parent node index": 1,
+                    "output port index": 0,
+                    "connected node": 16,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 1,
+                    "output port index": 0,
+                    "connected node": 23,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 2,
+                    "output port index": 0,
+                    "connected node": 8,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 3,
+                    "output port index": 0,
+                    "connected node": 2,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 3,
+                    "output port index": 0,
+                    "connected node": 7,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 4,
+                    "output port index": 0,
+                    "connected node": 7,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 5,
+                    "output port index": 0,
+                    "connected node": 6,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 5,
+                    "output port index": 0,
+                    "connected node": 6,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 5,
+                    "output port index": 0,
+                    "connected node": 9,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 6,
+                    "output port index": 0,
+                    "connected node": 10,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 6,
+                    "output port index": 0,
+                    "connected node": 11,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 7,
+                    "output port index": 0,
+                    "connected node": 11,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 7,
+                    "output port index": 0,
+                    "connected node": 18,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 8,
+                    "output port index": 1,
+                    "connected node": 9,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 9,
+                    "output port index": 0,
+                    "connected node": 10,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 9,
+                    "output port index": 0,
+                    "connected node": 12,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 10,
+                    "output port index": 0,
+                    "connected node": 14,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 11,
+                    "output port index": 0,
+                    "connected node": 17,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 12,
+                    "output port index": 0,
+                    "connected node": 15,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 12,
+                    "output port index": 0,
+                    "connected node": 20,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 13,
+                    "output port index": 0,
+                    "connected node": 12,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 13,
+                    "output port index": 0,
+                    "connected node": 14,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 14,
+                    "output port index": 0,
+                    "connected node": 15,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 14,
+                    "output port index": 0,
+                    "connected node": 22,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 15,
+                    "output port index": 0,
+                    "connected node": 16,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 16,
+                    "output port index": 0,
+                    "connected node": 18,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 17,
+                    "output port index": 0,
+                    "connected node": 19,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 18,
+                    "output port index": 0,
+                    "connected node": 19,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 19,
+                    "output port index": 0,
+                    "connected node": 24,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 20,
+                    "output port index": 0,
+                    "connected node": 23,
+                    "connected input port index": 0
+                },
+                {
+                    "parent node index": 21,
+                    "output port index": 0,
+                    "connected node": 22,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 22,
+                    "output port index": 0,
+                    "connected node": 20,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 23,
+                    "output port index": 0,
+                    "connected node": 17,
+                    "connected input port index": 1
+                },
+                {
+                    "parent node index": 24,
+                    "output port index": 0,
+                    "connected node": 25,
+                    "connected input port index": 0
+                }
+            ],
+            "output data": [
+                {
+                    "data": {
+                        "GID": 9,
+                        "identifier": "Data",
+                        "serialized": "gARLMi4="
+                    },
+                    "dependent node outputs": [
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 15,
+                        "identifier": "Data",
+                        "serialized": "gARLBS4="
+                    },
+                    "dependent node outputs": [
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 31,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        2,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 27,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        3,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 40,
+                        "identifier": "Data",
+                        "serialized": "gARLNy4="
+                    },
+                    "dependent node outputs": [
+                        4,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 44,
+                        "identifier": "Data",
+                        "serialized": "gARLAC4="
+                    },
+                    "dependent node outputs": [
+                        5,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 52,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        6,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 64,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        7,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 77,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        8,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 78,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        8,
+                        1
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 79,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        8,
+                        2
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 80,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        8,
+                        3
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 81,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 82,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        8,
+                        5
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 83,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        8,
+                        6
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 84,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        8,
+                        7
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 93,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        9,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 100,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        10,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 114,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        11,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 125,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        12,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 124,
+                        "identifier": "Data",
+                        "serialized": "gARLCi4="
+                    },
+                    "dependent node outputs": [
+                        13,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 138,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        14,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 145,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        15,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 154,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        16,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 246,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        17,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 191,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        18,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 248,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        19,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 226,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        20,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 215,
+                        "identifier": "Data",
+                        "serialized": "gARLAS4="
+                    },
+                    "dependent node outputs": [
+                        21,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 225,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        22,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 244,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        23,
+                        0
+                    ]
+                },
+                {
+                    "data": {
+                        "GID": 254,
+                        "identifier": "Data",
+                        "serialized": "gAROLg=="
+                    },
+                    "dependent node outputs": [
+                        24,
+                        0
+                    ]
+                }
+            ],
+            "flow view": {
+                "drawings": [],
+                "view size": [
+                    10000.0,
+                    7000.0
+                ]
+            }
+        }
+    },
+    "addons": {
+        "Logging": {
+            "GID": 3,
+            "version": "0.0.1",
+            "custom state": {}
+        },
+        "Variables": {
+            "GID": 4,
+            "version": "0.4",
+            "custom state": {
+                "5": {}
+            }
+        }
+    }
+}
