@@ -19,20 +19,10 @@ When installed, create a directory ~/.ryven/ in your user home with the followin
 
 ### Examples
 
-Here a small example: https://www.youtube.com/watch?v=lUNYstrfvmg
 
-![exemple_tutogithub](https://user-images.githubusercontent.com/81742654/131111996-7d586497-ecb0-4908-9da7-b8fd9ba72055.jpg)
-![exemple_tutogithub_1](https://user-images.githubusercontent.com/81742654/131112006-300cb113-ad9c-406c-9bd4-4ce6629f54ee.jpg)
+![example1](https://github.com/HakanSeven12/NodeCAD/blob/main/screenshots/example1.png)
 
-You can load this project from `demo_example.json`
-
-another example:
-![torus_example](https://user-images.githubusercontent.com/81742654/134700246-54ce5366-cb8f-43c1-acd9-fdd091cd802f.jpg)
-
-
-Other example : Convert your points to gcode
-![torus_gcode](https://user-images.githubusercontent.com/81742654/149762316-9d8fb268-cda9-432c-9263-c633bf921da6.jpg)
-see `torus_gcode.json file`
+![example2](https://github.com/HakanSeven12/NodeCAD/blob/main/screenshots/example2.png)
 
 
 It's just a beginning to explore the possibilities given by matching the two, I've just coded simple functions to see how it works and how it should be to perform complex operations.
