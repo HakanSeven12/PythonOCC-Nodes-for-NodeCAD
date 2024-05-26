@@ -1645,6 +1645,14 @@ class Display_Node(DisplayNodeBase):
 
     def update_event(self, inp=-1):
         self.display.EraseAll()
+
+        # Create and display the ViewCube in the 3D viewer
+        from OCC.Core.AIS import AIS_ViewCube
+        view_cube = AIS_ViewCube()
+        view_cube.SetDrawAxes(False)  # Customize the view cube appearance
+        content = self.display.GetContext()
+        content.Display(view_cube, True)
+
         for v in self.get_inputs():
             if v is None:
                 pass
